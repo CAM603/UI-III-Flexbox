@@ -76,6 +76,8 @@ h1, h2, h3, h4, h5 {
 	display:flex;
 	justify-content: space-around;
 	background: lightblue;
+	position: sticky;
+	top: 0;
 }
 .home_nav a{
 	/* center text */
@@ -139,4 +141,33 @@ h1, h2, h3, h4, h5 {
 	margin: 20px 0px 20px 0px;
 }
 
-/* SERVICES PAGE */
+/********************** SERVICES PAGE *******************/
+
+/* Page margin */
+.services_margin{
+	margin: 0px 40px 0px 40px;
+}
+
+/* Services Navigation Bar */
+.services_nav{
+	display:flex;
+	justify-content: space-around;
+	background: lightblue;
+	position: sticky;
+	top: 0;
+}
+.services_nav a{
+	/* center text */
+	display: flex;
+	align-items: center;
+}
+/* Top image */
+.services_top_img{
+	display: flex;
+	justify-content: center;
+}
+.services_top_img img{
+	width: 100%;
+}
+
+/* Services */
