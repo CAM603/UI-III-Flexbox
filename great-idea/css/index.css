@@ -66,9 +66,14 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-/* Give entire page margins */
+/* Give entire page margins without using margin property*/
+.home_body{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
 .home_margin{
-	margin: 0px 40px 0px 40px;
+	width: 80%;
 }
 
 /* Navigation Bar */
@@ -78,6 +83,7 @@ h1, h2, h3, h4, h5 {
 	background: lightblue;
 	position: sticky;
 	top: 0;
+	width: 100%;
 }
 .home_nav a{
 	/* center text */
@@ -144,8 +150,13 @@ h1, h2, h3, h4, h5 {
 /********************** SERVICES PAGE *******************/
 
 /* Page margin */
+.services_body{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
 .services_margin{
-	margin: 0px 40px 0px 40px;
+	width: 80%;
 }
 
 /* Services Navigation Bar */
