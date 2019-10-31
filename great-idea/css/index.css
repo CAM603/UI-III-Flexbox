@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5 {
 .services_nav{
 	display:flex;
 	justify-content: space-around;
-	background: lightblue;
+	background:white;
 	position: sticky;
 	top: 0;
 }
@@ -190,6 +190,9 @@ h1, h2, h3, h4, h5 {
 .services_section h1{
 	font-size: 40px;
 }
+.services_section p{
+	font-size: 15px;
+}
 
 /* Services Main Section */
 .services_main_section{
@@ -204,7 +207,7 @@ h1, h2, h3, h4, h5 {
 .services_main_section div{
 	border: solid 1px black;
 	background-color: rgb(196, 195, 195);
-	width: 300px;
+	width: 350px;
 	height: 250px;
 	display: flex;
 	flex-wrap:wrap;
@@ -217,22 +220,24 @@ h1, h2, h3, h4, h5 {
 .services_main_section button{
 	padding: 10px 25px;
 }
+.services_main_section p{
+	font-size: 15px;
+}
 
 /* Facts Section */
 .facts_section{
+	display:flex;
 	width: 100vw;
-	display: flex;
 }
 .facts_section div{
 	width: 50vw;
 }
 
+
 /* Copyright */
 .services_footer{
 	display: flex;
 	justify-content: center;
+	align-content: flex-start;
 }
 
-.services_footer p{
-	padding-bottom: 30px;
-}
