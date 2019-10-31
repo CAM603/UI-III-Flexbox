@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 html, body {
@@ -64,3 +65,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Give entire page margins */
+
+
+/* Navigation Bar */
+.home_nav{
+	display:flex;
+	justify-content: space-around;
+	background: lightblue;
+}
+.home_nav a{
+	/* center text */
+	display: flex;
+	align-items: center;
+}
+
+/* Area with button and circle image */
+.home_header{
+	display: flex;
+	justify-content: space-around;
+}
+.header_div{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.home_header img{
+	margin: 20px 0px 20px 0px;
+}
+.home_header h1{
+	font-size: 70px;
+}
+.home_header button{
+	width: 50%;
+	padding: 20px;
+	border-radius: 50%;
+}
+/* Feature and About section */
+.home_intro{
+	display: flex;
+	margin: 10px 0px 10px 0px;
+}
