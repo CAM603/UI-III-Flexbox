@@ -162,7 +162,8 @@ h1, h2, h3, h4, h5 {
 /* Services Navigation Bar */
 .services_nav{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
 	background:white;
 	position: sticky;
 	top: 0;
@@ -172,6 +173,11 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	align-items: center;
 }
+.services_nav h1{
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
 /* Top image */
 .services_top_img{
 	display: flex;
@@ -200,7 +206,7 @@ h1, h2, h3, h4, h5 {
 	flex-wrap:wrap;
 	justify-content: space-between;
 	align-content: space-between;
-	width: 800px;
+	width: 100vw;
 	height: 800px;
 }
 .services_main_section div{
@@ -227,6 +233,7 @@ h1, h2, h3, h4, h5 {
 .facts_section{
 	margin-top: 30px;
 	display:flex;
+	
 	width: 100vw;
 }
 .facts_section div{
@@ -235,6 +242,17 @@ h1, h2, h3, h4, h5 {
 .facts_section .facts_div ul{
 	margin-left: 30px;
 	list-style: circle;
+}
+.facts_div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.facts_img{
+	display: flex;
+	justify-content: flex-end;
+
 }
 
 /* Copyright */
