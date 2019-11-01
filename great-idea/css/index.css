@@ -54,7 +54,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+    height: 100vh;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -70,26 +70,27 @@ h1, h2, h3, h4, h5 {
 .home_body{
 	display: flex;
 	justify-content: center;
-	width: 100%;
+	width: 100vw;
 }
 .home_margin{
-	width: 80%;
+	width: 80vw;
 }
 
 /* Navigation Bar */
 .home_nav{
 	display:flex;
-	justify-content: space-around;
-	background: lightblue;
+	justify-content: space-between;
+	align-items: center;
+	background:white;
 	position: sticky;
 	top: 0;
-	width: 100%;
 }
 .home_nav a{
 	/* center text */
 	display: flex;
 	align-items: center;
 }
+
 
 /* Area with button and circle image */
 .home_header{
@@ -116,6 +117,9 @@ h1, h2, h3, h4, h5 {
 .home_intro{
 	display: flex;
 	margin: 40px 0px 40px 0px;
+}
+.home_intro p{
+	font-size: 12px;
 }
 /* Lare image Across page */
 .mid_img{
@@ -144,7 +148,7 @@ h1, h2, h3, h4, h5 {
 .home_copyright{
 	display:flex;
 	justify-content: center;
-	margin: 20px 0px 20px 0px;
+	margin: 20px 0px 0px 0px;
 }
 
 /********************** SERVICES PAGE *******************/
@@ -263,4 +267,92 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	justify-content: center;
 	align-content: flex-start;
+	padding-top: 30px;
 }
+/******************** Vision Page ***********************/
+
+.vision_body{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	background-color:black;
+}
+.vision_margin{
+	width: 80vw;
+}
+
+/* Vision Navigation Bar */
+.vision_nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background:rgb(6, 241, 6);
+	position: sticky;
+	top: 0;
+}
+.vision_nav a{
+	/* center text */
+	display: flex;
+	align-items: center;
+}
+.vision_nav h1{
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+.vision_nav a:last-child{
+	text-decoration: none;
+}
+/* Background Image */
+.vision_background_img{
+	width:100vw;
+	height: 200px;
+	background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+	background-size: cover;
+}
+
+/* Vision header */
+.vision_header{
+	display:flex;
+	height: 200px;
+	align-items: center;
+	background: rgb(6, 241, 6);
+	
+}
+.vision_header div{
+	margin: 20px
+}
+
+/* Vision Main Section */
+.vision_main_section{
+	display:flex;
+	flex-wrap:wrap;
+	align-content: space-around;
+	justify-content: space-between;
+	height: 100%;
+	
+}
+
+.main_div{
+	background:rgb(6, 241, 6);
+	height: 48%;
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+
+	
+}
+.main_div_2{
+	background-image: url("https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+	background-size:cover;
+	height: 300px;
+	width: 100%;
+}
+.main_div_3{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+
